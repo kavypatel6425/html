@@ -1,0 +1,35 @@
+.color-1{
+    background-color: red;
+    border: 2px solid black;
+    height: 800px
+}
+.color-2{
+    background-color: skyblue;
+    text-align: center;
+    border: 2px solid black;
+    padding: 40px;
+
+}
+.circle{
+    background-color: yellow;
+    height: 100px;
+    margin: 50px auto;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    line-height:100px;
+    margin-left: 47%;
+    
+}
+
+.bg-img{
+    background-image: url(../img/img\ 1.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-colore{
+    height: 500px;
+    background:linear-gradient(rgba(255, 0, 0, 0.486), rgba(0, 0, 255, 0.426), rgba(255, 255, 0, 0.442)) ;
+}

@@ -1,0 +1,40 @@
+/* h1{
+    color: red;
+} */
+/* .Class-Selector{
+    font-size: 50px;
+}
+#id{
+    border: 2px solid;
+} */
+/* *{
+    margin: 0%;
+    padding: 0% ;
+} */
+/* h1,span,p{
+    color: brown;
+} */
+ /* div p{
+    color: blue;
+ }
+ ul>li{
+    background-color: red;
+ } */
+/* div+h1{
+    background-color: aqua;
+} */
+/* h1~p{
+    font-style: italic;
+} */
+ /* p:last-child{
+   color: red;
+} */
+/* p::after{
+    content: "kavy";
+}
+p::before{
+    content: "kavy";
+} */
+p::first-letter{
+    font-style:italic;
+}

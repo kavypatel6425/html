@@ -1,0 +1,68 @@
+.sec-1 {
+    border: 2px solid black;
+    padding: 10px;
+    /* height: 800px; */
+}
+
+.home {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px 80px;
+    margin-top: 20px;
+}
+
+.about {
+    display: inline;
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 10px 80px;
+}
+
+.logo {
+    display: inline;
+    border: 2px solid black;
+    /* margin-left: 80%; */
+    margin: 20px 0 0 700px;
+    padding: 10px 80px;
+}
+
+.div-1 {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    border: 2px solid black;
+    /* padding: 20px; */
+    /* height: 50px; */
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.box-1 {
+    border: 2px solid black;
+    display: inline-block;
+    padding:10px 30px 10px 30px;
+}
+
+.img-1 {
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+.col {
+    column-count: 3;
+}
+.box-2{
+    border: 2px solid black;
+    width: 70%;
+    padding:10px 30px 10px 30px;
+}
+.box-3{
+    border: 2px solid black;
+    width: 70%;
+    padding:10px 30px 10px 30px;
+}
