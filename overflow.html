@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .visible{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            overflow: visible; 
+            margin-bottom: 200px;
+        }
+        .auto{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            overflow: auto; 
+        }
+        .hidden{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(246, 222, 3);
+            overflow: hidden; 
+        }
+        .scroll{
+            border: 2px solid;
+            height: 200px;
+            width: 300px;
+            background-color: rgb(246, 222, 3);
+            overflow: scroll; 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="visible">
+            <h2>overflow-visible</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit et tenetur odit esse rerum aperiam. Tempore neque nihil, aspernatur temporibus sit corrupti cum sequi reprehenderit quia quibusdam quasi. Ab accusantium praesentium, et, minus nesciunt assumenda rem numquam quaerat voluptate labore veniam nisi maiores officiis optio? Id harum est quae!</p>
+        </div>
+        <hr>
+        <div class="auto">
+            <h2 >overflow-auto </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta, at molestias aperiam itaque sit ducimus vero aut quos porro laborum. Ipsum, temporibus earum? Velit autem, cumque culpa quae ducimus voluptatibus voluptates cupiditate fugit possimus perspiciatis qui nostrum distinctio vitae ipsam ratione! Suscipit exercitationem deleniti a sint dicta praesentium quaerat!</p>
+        </div>
+        <hr>
+        <div class="hidden">
+            <h2 >overflow-auto </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta, at molestias aperiam itaque sit ducimus vero aut quos porro laborum. Ipsum, temporibus earum? Velit autem, cumque culpa quae ducimus voluptatibus voluptates cupiditate fugit possimus perspiciatis qui nostrum distinctio vitae ipsam ratione! Suscipit exercitationem deleniti a sint dicta praesentium quaerat!</p>
+        </div>
+        <hr>
+        <div class="scroll">
+            <h2 >overflow-auto </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta, at molestias aperiam itaque sit ducimus vero aut quos porro laborum. Ipsum, temporibus earum? Velit autem, cumque culpa quae ducimus voluptatibus voluptates cupiditate fugit possimus perspiciatis qui nostrum distinctio vitae ipsam ratione! Suscipit exercitationem deleniti a sint dicta praesentium quaerat!</p>
+        </div>
+    </section>
+</body>
+</html>

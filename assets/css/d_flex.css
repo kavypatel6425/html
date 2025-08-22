@@ -1,0 +1,50 @@
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    width: 170px;
+}
+
+h3 {
+    width: 200px;
+}
+
+.div-1 {
+    border: 2px solid;
+    margin: 10px;
+    width: 20%;
+    /* padding-left: 20px; */
+    /* text-align: center; */
+}
+
+.box-1 {
+    padding-left: 20px;
+
+}
+
+.box-1 button {
+    background-color: grey;
+    width: 240px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.div-4{
+    border: 2px solid;
+    margin: 10px;
+    width: 24%;
+}
+
+.d-flex {
+    display: flex;
+
+}
+.div-3{
+    border: 2px solid;
+    margin: 10px;
+    width: 23%;
+}
