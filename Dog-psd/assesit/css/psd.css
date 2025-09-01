@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nev{
+    list-style: none;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+}
+header{
+    background-color: #daac00;
+}
+.d-flex{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.tac{
+    text-align: center;
+}
+.jc_sb{
+    justify-content: space-between;
+}
